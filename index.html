@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Css/boostrap-select.min.css" />
+  <link rel="stylesheet" href="./Css/custom2.css" />
+  <link rel="stylesheet" href="./Css/custom.css" />
+  <link rel="stylesheet" href="./Css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="nav-logo py-3">
+          <a href="#" class="navbar-brand text-uppercase font-weight-bold">
+            KHOA CÔNG NGHỆ SINH HỌC
+          </a>
+        </div>
+
+        <div class="nav-list py-3">
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="skew30 "></div>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">TUYỂN SINH</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">GIỚI THIỆU</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">ĐÀO TẠO</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">CÁN BỘ</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">TIN TỨC</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">NGHIÊN CỨU</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">SINH VIÊN</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">CỰU SINH VIÊN</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="slide">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./asset/ORIGINAL-DESIGN-FILE-LOGO.png" style="height: 100vh;"/>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./asset/slide4.jpg" style="height: 100vh;"/>
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/slide5.jpg" style="height: 100vh;"/>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+  </section>
+  <!-- INTRO section  -->
+  <!-- <section class="intro"> -->
+
+  <section class="intro section-full awesome-services bg-white p-t70 p-b40">
+    <div class="container">
+      <div class="section-content">
+        <div class="row">
+          <div class="col-md-12 text-center section-head">
+            <h2 class="h2">Các ngành <span class="text-primary">Đào tạo Đại học</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-5">
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 right">
+              <div class="icon-bx-md radius bg-primary">
+                <img src="./asset/BT-icon.png" />
+              </div>
+              <div class="icon-content p-r40">
+                <h5 class="rdx-tilte">Công Nghệ Sinh Học</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 right">
+              <div class="icon-bx-md radius bg-primary">
+                <a href="#" class="icon-cell"><img src="./asset//FT-Icon.png" /></a>
+              </div>
+              <div class="icon-content p-r40">
+                <h5 class="rdx-tilte">Công Nghệ Thực Phẩm</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 right">
+              <div class="icon-bx-md radius bg-primary">
+                <a href="#" class="icon-cell"><img src="./asset/AR-Icon.png" /></a>
+              </div>
+              <div class="icon-content p-r40">
+                <h5 class="rdx-tilte">Quản Lý Thủy Sản</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-2 text-center worker">
+            <img src="./asset/cnsh01.png" style="height: 100%;" />
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 left">
+              <div class="icon-bx-md radius bg-primary">
+                <a href="#" class="icon-cell"><img src="./asset/BC-Icon.png" /></a>
+              </div>
+              <div class="icon-content p-l40">
+                <h5 class="rdx-tilte">Hóa Sinh</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 left">
+              <div class="icon-bx-md radius bg-primary">
+                <a href="#" class="icon-cell"><img src="./asset/CE-icon.png" /></a>
+              </div>
+              <div class="icon-content p-l40">
+                <h5 class="rdx-tilte">Kỹ Thuật Hóa Học</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-bx-wraper bx-style-2 m-b30 p-a20 left">
+              <div class="icon-bx-md radius bg-primary">
+                <a href="#" class="icon-cell"><img src="./asset/Research.png" /></a>
+              </div>
+              <div class="icon-content p-l40">
+                <h5 class="rdx-tilte">Nghiên Cứu và Mở Rộng</h5>
+                <div class="rdx-separator-outer">
+                  <div class="rdx-separator bg-primary style-liner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- </section> -->
+  <!-- <section class="product "> -->
+  <section class="section-full text-white bg-img-fix p-t70 p-b40 overlay-black-middle choose-us"
+    style="background-image: url(https://ibf.iuh.edu.vn/wp-content/uploads/2016/12/bm_cn_sinh_hoc.jpg)">
+    <div class="container">
+      <div class="section-head text-center text-white">
+        <h2 class="h2">Chương trình Đào tạo</h2>
+        
+        <p>
+          Chương trình đào tạo hoàn toàn bằng tiếng Anh và được các tổ chức thẩm định quốc tế chứng nhận
+        </p>
+      </div>
+      <div class="row program">
+        <div class="col-md-2 col-sm-4">
+          <div class="bx-style-1 p-a20 center m-b30">
+            <div class="icon-md text-primary m-b15">
+              <a href="#" class="icon-cell"><img
+                  src="./asset/universityicon.png" /></a>
+            </div>
+            <div class="icon-content">
+              <h4 class="rdx-tilte m-b0">
+                Đại Học
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+          <div class="bx-style-1 p-a20 center m-b30">
+            <div class="icon-md text-primary m-b15">
+              <a href="#" class="icon-cell"><img
+                  src="./asset/graduate-icon-7829.png" /></a>
+            </div>
+            <div class="icon-content">
+              <h4 class="rdx-tilte m-b0">
+                Cao Học
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+          <div class="bx-style-1 p-a20 center m-b30">
+            <div class="icon-md text-primary m-b15">
+              <a href="#" class="icon-cell"><img
+                  src="./asset/link.png" /></a>
+            </div>
+            <div class="icon-content">
+              <h4 class="rdx-tilte m-b0">
+                Liên Kết
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- </section> -->
+
+  <!-- <section class="videos">
+      <div class="video__content"></div>
+    </section> -->
+  <section class="team pb-4 container text-center">
+    <div class="section-full bg-white p-t70 p-b40">
+      <div class="container">
+        <div class="section-head text-center">
+          <div class="rdx-separator text-primary style-icon border-dark">
+            <h2 class="h2">HOT NEWS</h2>
+          </div>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="rdx-box m-b30 border-1 hover rdx-img-effect zoom">
+                <div class="rdx-media">
+                  <a href="javascript:;">
+                    <img alt="" src="./asset/IMG_20221209_182700-768x355.jpg" />
+                  </a>
+                </div>
+                <div class="p-a10">
+                  <span>Khoa Công nghệ Sinh học Trường Đại học Quốc Tế nhận quyền đăng cai Hội nghị Quốc tế về Tế bào
+                    gốc vào năm 2023</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="rdx-box m-b30 border-1 hover rdx-img-effect zoom">
+                <div class="rdx-media">
+                  <a href="javascript:;">
+                    <img alt="" src="./asset/IMG_20221201_183814.jpg" />
+                  </a>
+                </div>
+                <div class="p-a10">
+                  <span>Nghiên Cứu Sinh Phạm Quốc Định BT.IU Xuất Sắc Giành Được Học Bổng IPA của Chính Phủ Nhật
+                    Bản</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="rdx-box m-b30 border-1 hover rdx-img-effect zoom">
+                <div class="rdx-media">
+                  <a href="javascript:;">
+                    <img alt="" src="./asset/hotnews.jpg" />
+                  </a>
+                </div>
+                <div class="p-a10 bg-white">
+                  <span>KHOA CÔNG NGHIỆP SINH HỌC TƯ VẤN HƯỚNG NGHIỆP CHO HỌC SINH TRƯỜNG LÝ TỰ TRỌNG & NGUYỄN VĂN TRỖI
+                    TP.NHA TRANG</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="rdx-box m-b30 border-1 hover rdx-img-effect zoom">
+                <div class="rdx-media">
+                  <a href="javascript:;">
+                    <img alt="" src="./asset/hotnews2.jpg" />
+                  </a>
+                </div>
+                <div class="p-a10">
+                  <span>Xin chúc mừng 201 tân tiến sĩ, thạc sĩ, cử nhân và kĩ sư thuộc khoa công nghệ sinh học trường
+                    Đại học Quốc Tế, Đại học Quốc gia Tp.HCM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="number text-center m-auto ">
+    <div class="number__content container m-auto row p-4  position-relative">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="row mt-4">
+          <div class="number__item col-md-3 col-sm-3 col-xs-6 p-b20">
+            <div class="text-white border-2 m-b5 border-icon">
+              <span class="icon-cell">
+                <i class="fa-solid fa-school"></i>
+              </span>
+            </div>
+            <p class="counter pt-2">1980</p>
+            <p>Thành lập</p>
+          </div>
+          <div class="number__item col-md-3 col-sm-3 col-xs-6 p-b20">
+            <div class="text-white border-2 m-b5 border-icon">
+              <span class="icon-cell">
+                <i class="fa-solid fa-book-open-reader"></i>
+              </span>
+            </div>
+            <p class="counter pt-2">5</p>
+            <p>Bộ môn</p>
+          </div>
+          <div class="number__item col-md-3 col-sm-3 col-xs-6 p-b20">
+            <div class="text-white border-2 m-b5 border-icon">
+              <span class="icon-cell">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </span>
+            </div>
+            <p class="counter pt-2">164</p>
+            <p>Đội ngũ giảng viên</p>
+          </div>
+          <div class="number__item col-md-3 col-sm-3 col-xs-6 p-b20">
+            <div class="text-white border-2 m-b5 border-icon">
+              <span class="icon-cell">
+                <i class="fa-solid fa-user-graduate"></i>
+              </span>
+            </div>
+            <p class="counter pt-2">34000</p>
+            <p>Sinh viên tốt nghiệp</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-1">
+        <div class="company-stats-worker">
+          <img style="max-height:250px ;" src="./asset/footer.png" alt="Woman" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Back to Top -> Done -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-caret-up"></i>
+  </button>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row text-xs-center text-sm-left text-md-left">
+
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Liên kết</h5>
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tuyển Sinh</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Giới thiệu</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Đào tạo</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Cán bộ</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Tin tức</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Liên kết</h5>
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Nghiên cứu</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Sinh viên</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Cựu Sinh Viên</a>
+            </li>
+            <li>
+              <a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 ms-sm-10 mt-sm-2 text-white text-center">
+        <p>
+          <u><a>Bộ giáo dục và đào tạo</a></u> __ Trường đại học quốc tế -
+          Kp. 6, Linh Trung, Thu Duc, Ho Chi Minh City __
+        </p>
+        <p class="h6">
+          Bản quyền &copy;2023 .<a class="text-green ml-2" href="#" target="_blank">Phuc Khang Soft</a>
+        </p>
+      </div>
+      <!-- </hr> -->
+    </div>
+  </footer>
+
+  <!-- Boostrap 5.2.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js"
+    integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Waypoints  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous"></script>
+
+  <script src="./JS/jquery.countup.min.js"></script>
+  <!-- owl carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
